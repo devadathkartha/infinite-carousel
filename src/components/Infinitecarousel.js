@@ -29,12 +29,13 @@ const InfiniteCarousel = () => {
             loop={true}
             speed={800}
             autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
+              delay: 2000,
+              disableOnInteraction: false,
             }}
             navigation={true}
+            cssMode={false}
             breakpoints={{
-            768: { slidesPerView: 2 },
+              768: { slidesPerView: 2 },
             }}
             className="w-full h-full"
         >
